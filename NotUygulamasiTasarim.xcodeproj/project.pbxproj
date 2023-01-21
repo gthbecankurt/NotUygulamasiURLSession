@@ -13,6 +13,11 @@
 		BAAFD0F3297AF23300520C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAFD0F1297AF23300520C1B /* Main.storyboard */; };
 		BAAFD0F5297AF23400520C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAFD0F4297AF23400520C1B /* Assets.xcassets */; };
 		BAAFD0F8297AF23400520C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAFD0F6297AF23400520C1B /* LaunchScreen.storyboard */; };
+		BAAFD100297AF5ED00520C1B /* NotHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAFD0FF297AF5ED00520C1B /* NotHucreTableViewCell.swift */; };
+		BAAFD102297AF7F500520C1B /* NotEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAFD101297AF7F500520C1B /* NotEkleViewController.swift */; };
+		BAAFD104297AF90A00520C1B /* NotDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAFD103297AF90A00520C1B /* NotDetayViewController.swift */; };
+		BAAFD106297AFECA00520C1B /* Notlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAFD105297AFECA00520C1B /* Notlar.swift */; };
+		BAAFD108297B06E200520C1B /* NotCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAFD107297B06E200520C1B /* NotCevap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		BAAFD0F4297AF23400520C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAAFD0F7297AF23400520C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAAFD0F9297AF23400520C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAFD0FF297AF5ED00520C1B /* NotHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotHucreTableViewCell.swift; sourceTree = "<group>"; };
+		BAAFD101297AF7F500520C1B /* NotEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotEkleViewController.swift; sourceTree = "<group>"; };
+		BAAFD103297AF90A00520C1B /* NotDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotDetayViewController.swift; sourceTree = "<group>"; };
+		BAAFD105297AFECA00520C1B /* Notlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlar.swift; sourceTree = "<group>"; };
+		BAAFD107297B06E200520C1B /* NotCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotCevap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,13 @@
 			children = (
 				BAAFD0EB297AF23300520C1B /* AppDelegate.swift */,
 				BAAFD0ED297AF23300520C1B /* SceneDelegate.swift */,
-				BAAFD0EF297AF23300520C1B /* ViewController.swift */,
 				BAAFD0F1297AF23300520C1B /* Main.storyboard */,
+				BAAFD0EF297AF23300520C1B /* ViewController.swift */,
+				BAAFD103297AF90A00520C1B /* NotDetayViewController.swift */,
+				BAAFD101297AF7F500520C1B /* NotEkleViewController.swift */,
+				BAAFD0FF297AF5ED00520C1B /* NotHucreTableViewCell.swift */,
+				BAAFD107297B06E200520C1B /* NotCevap.swift */,
+				BAAFD105297AFECA00520C1B /* Notlar.swift */,
 				BAAFD0F4297AF23400520C1B /* Assets.xcassets */,
 				BAAFD0F6297AF23400520C1B /* LaunchScreen.storyboard */,
 				BAAFD0F9297AF23400520C1B /* Info.plist */,
@@ -139,7 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAAFD0F0297AF23300520C1B /* ViewController.swift in Sources */,
+				BAAFD108297B06E200520C1B /* NotCevap.swift in Sources */,
+				BAAFD106297AFECA00520C1B /* Notlar.swift in Sources */,
+				BAAFD102297AF7F500520C1B /* NotEkleViewController.swift in Sources */,
+				BAAFD100297AF5ED00520C1B /* NotHucreTableViewCell.swift in Sources */,
 				BAAFD0EC297AF23300520C1B /* AppDelegate.swift in Sources */,
+				BAAFD104297AF90A00520C1B /* NotDetayViewController.swift in Sources */,
 				BAAFD0EE297AF23300520C1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
